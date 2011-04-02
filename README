@@ -1,0 +1,28 @@
+Use jMasterPage for use of Master Pages through AJAX.
+
+It uses jQuery to replace the contents of a html tag defined on initialization to call ajax requests on other pages.
+
+It changes the active and inactive class links on the master page using the classes 'jmsActive' for the pages that you can reach 
+
+(other pages) and 'jmsInactive' for the actual page.
+
+
+Usage:
+
+- make your Master Page using only HTML.
+
+- add a placeholder (ex.: div) where your page contents will reside.
+
+- add a script tag for initialize jMasterPage.
+ex.:
+
+$("#content").jmasterpage();
+
+- you're ready to go!
+
+
+Options:
+
+You can use the options bellow for personalization:
+
+home -> set the first page of your site if you have one, so you can call it again through other pages.

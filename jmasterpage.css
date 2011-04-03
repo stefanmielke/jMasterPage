@@ -1,0 +1,9 @@
+.jmsActive {
+  text-decoration:underline;
+  color: #000000;
+}
+
+.jmsInactive {
+  color: #555555;
+  text-decoration:none;
+}

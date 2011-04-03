@@ -18,7 +18,9 @@ ex.:
 
 $("#content").jmasterpage();
 
-- you're ready to go!
+- add other pages without all the "html", "head" and "body", only the content inside the placeholder.
+
+- you're ready to go! Every link on the website will use the placeholder to render its contents.
 
 
 Options:
